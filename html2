@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>NEW PAGE!!!!1</title>
+</head>
+
+<body style="background-color:beige;">
+<!--BASIC INFORMATION OF HEADING AND PARAGRAPHS AND COLOR, BORDER, FONT SIZE,CENTER ALIGNMENT-->
+<h2 style="text-align: center;">THIS IS NEERAJ FROM KLU </h2>
+<p style="color:blue;font-size:160%;text-align: center;border: 2px solid dodgerblue;">AI-DS STUDENT</p>
+<hr>
+
+<a href="https://www.kluniversity.in"target="_blank">KLU</a>
+<p title="About KLU">KLUNIVERSITY<br>is located at<br> vaddeswaram</p>
+<!--IMAGES, PEOM TYPE -->
+<img src="pexels-sonu-sonkar-2014806.jpg" width="200" height="150">
+<img src="pexels-neosiam-673862.jpg" width="200" height="150">
+<hr>
+<p>
+    My Bonnie lies over the ocean.
+  
+    My Bonnie lies over the sea.
+  
+    My Bonnie lies over the ocean.
+  
+    Oh, bring back my Bonnie to me.
+</p>
+<pre>
+    My Bonnie lies over the ocean.
+  
+    My Bonnie lies over the sea.
+  
+    My Bonnie lies over the ocean.
+  
+    Oh, bring back my Bonnie to me.
+</pre>
+<!--HORIZONTAL LINE, BOLD,STRONG,ITALIC,SMALL,MARK,DEL,INS,SUP,SUB-->
+<hr>
+<b>This text is blod</b>
+<br>
+<strong>This text is important!</strong>
+<br>
+<i>This text is italic</i>
+<br>
+<small>This is some smaller text.</small>
+<br>
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+<p>my favorite color is <del>blue</del> <ins>red</ins>.</p>
+<p>This is <sub>subscripted</sub> note <sup>text </sup>.</p>
+<hr>
+<!--BLOCKQUOTE,CITE,ABBR,ADDRESS,BDO-->
+<p>Here is a quote from website:</p>
+<blockquote cite="http://www.kluniversity.in/who/index.html">
+    The Koneru Lakshmaiah Charities was established as a trust 
+    in the year 1980 with its official address at Museum road,
+    Vijayawada and started KL College of Engineering in the
+    Academic year 1980-81. The trust was converted into a 
+    Society by the name Koneru Lakshmaiah Education Foundation
+    in the year 1996.
+</blockquote>
+<p>WWF's goal is to: <q>Build a future where people live in 
+    harmony with nature.</q></p>
+<p>The <abbr title="Koneru Lakshmaiah University">KLU</abbr> WAS FOUNDED IN 1980</p>
+</blockquote>
+<address>
+    written by neeraj.S <br>
+    Visit us at:<br>
+    Kluniversity.in<br>
+    Vaddeswaram,Vijayawada<br>
+    INDIA
+</address>
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+<bdo dir="rtl">This text will be written from right to left</bdo>
+<br>
+<!---->
+<style>
+    body {background-color: powderblue;}
+    h1   {color: blue;}
+    p    {color: red;}
+    </style>
+
+    
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+<hr>
+<h2 id="C4">Chapter 1</h2>
+<a href="#C4">Jump to Chapter 4</a><br>
+<br>
+<img src="1159117.jpg" alt="Star Lord" width="400" height="200">
+<br>
+<hr>
+
+<form>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname">
+  </form>
+<body>
+    <h1 style="text-align: center;background-color: green;">LOGIN</h1>
+    <form>
+        <label>Usermane:</label><input type="text"name="Usermane"><br><br>
+        <label>Password:</label><input type="Password"name="Password"><br><br>
+        <input type="button" name="Submit" value="Submit">
+        <input type="button" name="Reset" value="Reset">
+    </form>
+</body>
+
+</body>
+</html>

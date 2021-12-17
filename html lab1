@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body style="background-color:cornsilk;"></body>
+        <title>
+            This is my web page!!!!!
+        </title>
+        <body>
+            <a href="https://www.kluniversity.in"target="_blank ">link</a>
+            <h1 style="text-align: center;font-family: 'Lucida Sans Unicode'; ">KL NETWORKS</h1>
+            <p style="color:darkseagreen;font-size:160%;text-align: center;">USER-LOGIN</p>
+            <br>
+            <br>
+            <form style="text-align: center;">
+                <fieldset>
+                <legend> *SECURITY*</legend><br><br>
+                <label>USER NAME:</label><input type="text"name="USER NAME"><br><br>
+                <label>PASSWORD:</label><input type="password"name="PASSWORD"><br><br>
+            </fieldset> 
+            </form>
+            <h2 style="text-align: center;">
+                "About KLU"
+                
+            </h2>
+            <p>
+                Brief explination about KLU
+            </p>
+            <blockquote>K L University, officially K L Deemed to be University, formerly K L College of Engineering(KLCE) and Koneru Lakshmaiah Education Foundation (KLEF)</blockquote>
+            <img src="download.png" alt="KLU" class="center">
+            <p>
+                Student review about KLU 
+            </p>
+            <blockquote>
+                1) Education with highly qualified faculty and best computer labs with latest courses, where as with dedicated professors and placement training leads to achieve goals. Core subjects with professional  and futuristic approach.  Turning point & success comes for life through KL University.   
+                <br>        -by Bangaru Murthy<br><br>
+                2) It's one of the best deemed to be universities that offers various courses of study in different engineering streams. Located on the banks of Buckingham Canal amidst lush-green and serene environment at Vaddeswaram in Vijayawada, it ignites many a mind for higher learning including R & D...
+                <br> -by  Dil se<br><br>
+                3)  A perfect education for brighter studies.all I can say is join here if you are perfect.if you are good at studies and you can put some effort on education, definitely you will be placed in good company.the fee structure was somewhat high.Atmosphere was very well.where ever you roam in the campus we see lot of students.students should wear shoes,id card and tuck in for attending classes.they strictly maintain the campus.ragging was nill.they offer many courses.the University doesn't allow mobiles inside campus.
+                <br> -by K Kishore
+            </blockquote>
+        </body>
+    </head>
+</html>

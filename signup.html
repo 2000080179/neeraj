@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>P-M Sign-up</title>
+        <link rel="stylesheet" type="text/css" href="lab1.css">
+        <script>
+            function validationform(){
+                var name=document.signup.fname.value;
+                var email=document.signup.femail.value;
+                var mobile=document.signup.fmbl.value;
+                var password=document.signup.fpwd.value;
+                var confirmpassword=document.signup.fd.value
+
+                if (name==null||name==""){
+                    alert("name cant be blank");
+                    return false;
+                } 
+                else if(email==null||email==""){
+                    alert("email cant be blank");
+                    return false;
+                }
+                else if(mobile.length<10){
+                    alert("please enter 10 digits");
+                    return false;
+                }
+                else if(password.length<6){
+                    alert("password must be at least 6 characters long.");
+                    return false;
+                }
+                else if(password!=confirmpassword){
+                    alert("not")
+                    return false;
+                }
+            
+                else{
+                    open("loginpage.html")
+                }
+            }
+        </script>
+
+        <style>
+            body {
+              background: url(wallpaper.jpg);
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: 100% 100%;
+            }
+            </style>
+        <div class="signup-box">
+            <h1>Sign Up </h1>
+        <body>
+        <form name="signup" method="post" onsubmit="return validationform()">
+        <label>UserName:</label><input type="text" class="input-box" name="fname">
+        <label>Email:</label><input type="email" class="input-box" name="femail">
+        <label>Mobile No:</label><input type="text" class="input-box" name="fmbl">
+        <label>Password:</label>
+        <input type="password" class="input-box" name="fpwd">
+        <label>Confirm Password:</label><input type="password" class="input-box" name="fd"><br>
+        <button type="submit" formaction="page-1.html">Submit</button>
+        <br>
+    </form>
+        <p>Already have an account? <a href="loginpage.html"> Login here </a></p>
+        </body>
+        </div>
+    </head>
+</html>
